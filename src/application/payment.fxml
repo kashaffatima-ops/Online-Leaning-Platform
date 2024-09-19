@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="458.0" prefWidth="600.0" style="-fx-background-color: #D3D3D3;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.paymentController">
+   <children>
+      <ImageView fitHeight="78.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true" />
+      <AnchorPane prefHeight="78.0" prefWidth="600.0" style="-fx-background-color: #89CFF0;">
+         <children>
+            <Label layoutX="219.0" layoutY="28.0" text="Course Payment">
+               <font>
+                  <Font name="Britannic Bold" size="21.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label layoutX="92.0" layoutY="198.0" prefHeight="16.0" prefWidth="62.0" text="Email">
+         <font>
+            <Font name="Britannic Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="243.0" prefHeight="18.0" prefWidth="144.0" text="Bank Account No.">
+         <font>
+            <Font name="Britannic Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="286.0" prefHeight="16.0" prefWidth="62.0" text="Course">
+         <font>
+            <Font name="Britannic Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="email_tb" layoutX="245.0" layoutY="194.0" prefHeight="26.0" prefWidth="174.0" />
+      <Button fx:id="back" layoutX="159.0" layoutY="390.0" mnemonicParsing="false" onAction="#baclkbutton" prefHeight="26.0" prefWidth="131.0" style="-fx-background-color: gray;" text="Cancel">
+         <font>
+            <Font name="Britannic Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="92.0" layoutY="158.0" prefHeight="18.0" prefWidth="144.0" text="Student Name">
+         <font>
+            <Font name="Britannic Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="91.0" layoutY="113.0" prefHeight="18.0" prefWidth="118.0" text="Student Id">
+         <font>
+            <Font name="Britannic Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="stdName_tb" layoutX="245.0" layoutY="154.0" prefHeight="26.0" prefWidth="174.0" />
+      <TextField fx:id="stdID_tb" layoutX="245.0" layoutY="109.0" prefHeight="26.0" prefWidth="174.0" />
+      <Label fx:id="notify" layoutX="179.0" layoutY="357.0" prefHeight="17.0" prefWidth="282.0" textFill="RED" />
+      <TextField fx:id="bankNo_tb" layoutX="245.0" layoutY="239.0" prefHeight="26.0" prefWidth="174.0" />
+      <Label fx:id="courseName_lbl" layoutX="245.0" layoutY="282.0" prefHeight="26.0" prefWidth="174.0" />
+      <Label layoutX="92.0" layoutY="327.0" prefHeight="16.0" prefWidth="62.0" text="Price">
+         <font>
+            <Font name="Britannic Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="price_lbl" layoutX="245.0" layoutY="323.0" prefHeight="26.0" prefWidth="174.0" textFill="#1300ff" />
+      <Button fx:id="confirm_bt1" layoutX="320.0" layoutY="390.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="131.0" style="-fx-background-color: gray;" text="Confirm">
+         <font>
+            <Font name="Britannic Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="notifyEmail_lbl" layoutX="437.0" layoutY="199.0" prefHeight="17.0" prefWidth="144.0" textFill="RED" />
+      <Label fx:id="notifyAccount_lbl" layoutX="437.0" layoutY="244.0" prefHeight="17.0" prefWidth="144.0" textFill="RED" />
+   </children>
+</AnchorPane>

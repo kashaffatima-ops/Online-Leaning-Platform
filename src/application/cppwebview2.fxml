@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="452.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="255.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cppvid2.png" />
+         </image>
+      </ImageView>
+      <TextArea layoutX="-1.0" layoutY="255.0" prefHeight="146.0" prefWidth="455.0" text="What You Will Learn:&#10;&#10;Fundamentals to Advanced C++ Concepts: Begin with the basics of C++ and gradually progress to advanced programming concepts, including object-oriented programming, data structures, algorithms, and system design.&#10;Interview Preparation: Special focus on interview-style questions and answers that commonly appear in technical assessments for internships and job applications in tech companies.&#10;Problem-Solving Techniques: Learn to approach and solve complex problems using C++ with effective strategies and coding practices.&#10;Project-Based Learning: Gain practical experience by working through project simulations and coding challenges that reflect typical tasks in a professional setting.&#10;Optimization and Best Practices: Learn to write optimized and clean code that aligns with industry standards and expectations.&#10;Who Should Watch:&#10;&#10;Students preparing for campus placements.&#10;Aspiring software developers aiming for a career in technology.&#10;Professionals seeking to brush up on C++ for career advancement or transition.&#10;Features of the Playlist:&#10;&#10;Over 200 targeted tutorial videos.&#10;Interactive coding sessions.&#10;Detailed explanations and walkthroughs of tough coding problems.&#10;Tips for mastering technical interviews.&#10;Access to downloadable code and resources for offline study." />
+   </children>
+</AnchorPane>

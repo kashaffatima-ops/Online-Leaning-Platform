@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: azure;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.markAssignmentController">
+   <children>
+      <TableView fx:id="assigntable" layoutX="352.0" layoutY="45.0" prefHeight="308.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="assignmentid" prefWidth="98.00006103515625" text="assignment id" />
+          <TableColumn fx:id="studentid" prefWidth="100.6666259765625" text="student id" />
+        </columns>
+      </TableView>
+      <TextField fx:id="assignid" layoutX="43.0" layoutY="106.0" prefHeight="25.0" prefWidth="52.0" />
+      <Label layoutX="41.0" layoutY="75.0" text="Enter Assignment id:" />
+      <Button fx:id="show_bt" layoutX="27.0" layoutY="315.0" mnemonicParsing="false" onAction="#showassignments" prefHeight="25.0" prefWidth="125.0" style="-fx-background-color: gray;" text="show assignments" />
+      <TextField fx:id="newmarks" layoutX="43.0" layoutY="173.0" prefHeight="25.0" prefWidth="52.0" />
+      <Label layoutX="41.0" layoutY="140.0" text="Enter Marks:" />
+      <Button fx:id="submit_bt" layoutX="199.0" layoutY="315.0" mnemonicParsing="false" onAction="#submitmarks" prefHeight="25.0" prefWidth="125.0" style="-fx-background-color: gray;" text="submit marks" />
+      <Button fx:id="back" layoutX="27.0" layoutY="14.0" mnemonicParsing="false" onAction="#baclkbutton" text="Back" />
+      <Label layoutX="199.0" layoutY="16.0" text="Mark Assignment">
+         <font>
+            <Font name="Britannic Bold" size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

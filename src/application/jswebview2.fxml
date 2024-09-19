@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="395.0" prefWidth="486.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="276.0" fitWidth="600.0" layoutX="-1.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../jsvid2.png" />
+         </image>
+      </ImageView>
+      <TextArea layoutX="-2.0" layoutY="275.0" prefHeight="123.0" prefWidth="488.0" text="What This Playlist Covers:&#10;&#10;Video 1: Variables &amp; Data Types: Start from the basics with an understanding of Python variables and the types of data Python can handle.&#10;Following Videos: Progress through sequences on control structures, functions, modules, exception handling, and object-oriented programming.&#10;Advanced Topics: Dive into more complex subjects like file operations, libraries for data analysis, and frameworks for web development.&#10;Practical Examples: Each video includes practical coding examples, challenges, and projects to help you apply what you've learned in real-world scenarios.&#10;Interview Preparation: Gain insights into common interview questions for Python-related roles, ensuring you're job-ready.&#10;Who Should Watch:&#10;&#10;Beginners seeking a comprehensive start in programming.&#10;Intermediate programmers aiming to deepen their understanding of Python.&#10;Professionals and students preparing for interviews in the tech industry.&#10;Features of the Playlist:&#10;&#10;Detailed explanations by expert instructors.&#10;Hands-on coding sessions with real-time problem-solving.&#10;Tips and tricks to improve efficiency and code quality.&#10;Access to additional resources and reading materials.&#10;Embark on this learning journey to gain a solid foundation in Python, enhance your problem-solving skills, and prepare for opportunities in software development, data science, and beyond!" />
+   </children>
+</AnchorPane>

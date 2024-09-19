@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="435.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="242.0" fitWidth="601.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pyvid1.png" />
+         </image>
+      </ImageView>
+      <TextArea layoutY="242.0" prefHeight="158.0" prefWidth="435.0" text="What You Will Learn:&#10;&#10;Python Basics: Understand the fundamentals of Python, including variables, data types, conditionals, loops, and functions.&#10;Advanced Topics: Dive deeper into more complex Python concepts such as classes and objects, exception handling, file I/O, and libraries like NumPy and Pandas for data manipulation.&#10;Practical Projects: Apply your learning with real-world projects, ranging from simple applications to complex systems, enhancing your problem-solving skills.&#10;Data Science Introduction: Get a brief introduction to the field of data science and how Python is used to perform data analysis, visualization, and machine learning tasks.&#10;Best Practices: Learn coding best practices, debugging techniques, and other skills that will make you a proficient Python developer.&#10;Who is this course for?&#10;&#10;Individuals new to programming who want to start with Python.&#10;Experienced programmers looking to switch to Python or refresh their skills.&#10;Professionals in data analysis, machine learning, or web development seeking to strengthen their Python knowledge.&#10;Course Features:&#10;&#10;Step-by-step instructions with a clear, engaging teaching style.&#10;Comprehensive coverage from basic to advanced Python.&#10;Interactive examples and hands-on coding challenges.&#10;Tips for optimizing your code and following best practices.&#10;Access to a community forum for support and discussions.&#10;Whether you're looking to start a career in tech, win at hackathons, or simply automate parts of your job, this course provides all the tools you need to succeed with Python. Enroll now and start your path to becoming a Python programmer!" />
+   </children>
+</AnchorPane>

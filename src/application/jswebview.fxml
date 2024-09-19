@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="390.0" prefWidth="458.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="266.0" fitWidth="600.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../jsvid1.png" />
+         </image>
+      </ImageView>
+      <TextArea layoutX="-1.0" layoutY="265.0" prefHeight="125.0" prefWidth="462.0" text="What You Will Learn:&#10;&#10;Fundamentals of JavaScript: Understand the syntax and basic programming constructs such as variables, data types, and loops.&#10;Functions and Objects: Dive into functions, object-oriented programming concepts, and how to manipulate objects in JavaScript.&#10;DOM Manipulation: Learn how to interact with the Document Object Model (DOM) to dynamically change the content of web pages.&#10;Event Handling: Get to grips with handling user input and events to create interactive experiences.&#10;Practical Examples: Apply your skills in real-time with practical coding examples that enhance your understanding and retention.&#10;Why Watch This Video?&#10;&#10;Efficient Learning: Get up to speed with JavaScript essentials in just 3 hours.&#10;Expert Instruction: Learn from clear, concise explanations that make complex topics easy to understand.&#10;Hands-On Practice: Follow along with examples and challenges that ensure you apply what you learn immediately.&#10;Whether you are a complete novice or a seasoned programmer needing a quick refresher, this video is designed to equip you with the skills necessary to start creating dynamic and interactive web applications using JavaScript." />
+   </children>
+</AnchorPane>

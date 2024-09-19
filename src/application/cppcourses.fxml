@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="373.0" prefWidth="602.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CppCoursesController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="298.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cppvid1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="165.0" fitWidth="266.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cppvid2.png" />
+         </image>
+      </ImageView>
+      <Line endX="450.0999755859375" endY="-10.000015258789062" layoutX="151.0" layoutY="226.0" startX="-151.0" startY="-10.000015258789062" />
+      <TextArea layoutX="292.0" layoutY="56.0" prefHeight="106.0" prefWidth="274.0" text="- A full intro of C++&#10;- Beginner-friendly&#10;- watch an hour a day&#10;- Instructor : freeCodeCamp" />
+      <Button fx:id="watchcppvid" layoutX="292.0" layoutY="174.0" mnemonicParsing="false" onAction="#cppvidclicked" prefHeight="26.0" prefWidth="274.0" text="Watch Now">
+         <font>
+            <Font name="Britannic Bold" size="12.0" />
+         </font>
+      </Button>
+      <TextArea layoutX="292.0" layoutY="223.0" prefHeight="106.0" prefWidth="274.0" text="- A full playlist for C++&#10;- Beginner-friendly&#10;- watch a video a day&#10;- Instructor : Apna College" />
+      <Button fx:id="watchcppplaylist" layoutX="292.0" layoutY="339.0" mnemonicParsing="false" onAction="#watchcppplaylistclicked" prefHeight="26.0" prefWidth="274.0" text="Watch Now">
+         <font>
+            <Font name="Britannic Bold" size="12.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutY="-2.0" prefHeight="58.0" prefWidth="602.0" style="-fx-background-color: white;">
+         <children>
+            <Text layoutX="265.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C++ Videos">
+               <font>
+                  <Font name="Britannic Bold" size="15.0" />
+               </font>
+            </Text>
+            <Button fx:id="back" layoutX="22.0" layoutY="17.0" mnemonicParsing="false" onAction="#baclkbutton" text="Back" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

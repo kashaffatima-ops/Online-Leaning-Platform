@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: azure;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.submitAssignmentController">
+   <children>
+      <Label layoutX="53.0" layoutY="65.0" text="Enter file path:" />
+      <Label layoutX="53.0" layoutY="142.0" text="Enter your name + course name (eg: nameC++):" />
+      <Button fx:id="submit_bt" layoutX="53.0" layoutY="232.0" mnemonicParsing="false" onAction="#submit_assignment" prefHeight="25.0" prefWidth="102.0" text="Submit" />
+      <Label fx:id="output_text" layoutX="191.0" layoutY="236.0" />
+      <TextField fx:id="filepath" layoutX="53.0" layoutY="100.0" prefHeight="25.0" prefWidth="289.0" />
+      <TextField fx:id="newfile" layoutX="53.0" layoutY="174.0" prefHeight="25.0" prefWidth="289.0" />
+      <Button fx:id="back" layoutX="207.0" layoutY="232.0" mnemonicParsing="false" onAction="#baclkbutton" prefHeight="25.0" prefWidth="102.0" text="Back" />
+   </children>
+</AnchorPane>
